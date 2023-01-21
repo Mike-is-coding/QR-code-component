@@ -1,0 +1,57 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+  }
+
+  @font-face {
+    font-family: Outfit;
+    src: url("Outfit-Regular.ttf");
+  }
+
+  body { 
+    font-family: Outfit; 
+  }
+
+  img {
+    width: 90%;
+    height: 400px;
+    object-fit:cover;
+    margin-top: -20px;
+    border-radius: 25px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+    color: var(--Grayish-blue)
+  }
+
+  .background { background: var(--Light-gray);
+    width: 100vw;
+    height: 100vh;
+    margin: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+  .container { 
+    width: 400px; 
+    height: 600px; 
+    background: var(--White);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+   }
+
+   .textbox {
+    text-align: center;
+    width: 80%;
+   }
