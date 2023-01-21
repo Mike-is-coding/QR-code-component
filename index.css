@@ -12,46 +12,42 @@
 
   body { 
     font-family: Outfit; 
-  }
-
-  img {
-    width: 90%;
-    height: 400px;
-    object-fit:cover;
-    margin-top: -20px;
-    border-radius: 25px;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 15px;
-    color: var(--Grayish-blue)
-  }
-
-  .background { background: var(--Light-gray);
-    width: 100vw;
-    height: 100vh;
-    margin: -8px;
+    background: var(--Light-gray);
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: var(--Grayish-blue)
+  }
 
   .container { 
-    width: 400px; 
-    height: 600px; 
+    width: 23rem; 
+    padding: 1rem; 
     background: var(--White);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 25px;
+    border-radius: 1.5em;
    }
 
    .textbox {
     text-align: center;
-    width: 80%;
+    margin: 1rem;
    }
